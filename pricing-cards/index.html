@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./src/output.css" />
+    <!-- Page Title -->
+    <title>Pricing Cards</title>
+  </head>
+  <body>
+    <main class="flex justify-center items-center bg-slate-800 min-h-screen">
+      <section class="flex md:flex-row flex-col gap-6 my-6 md:my-0">
+        <!-- Start Card -->
+        <div class="bg-slate-700 p-3 rounded-xl text-white">
+          <div class="flex flex-col items-center bg-slate-800 p-8">
+            <h3 class="mb-10 uppercase">Basic</h3>
+            <div class="flex flex-col items-center space-y-2">
+              <span class="font-serif text-5xl">100GB</span>
+              <span>$1.99/Month</span>
+            </div>
+            <button
+              class="hover:bg-violet-800 my-6 px-10 py-3 border border-violet-600 hover:border-violet-800 rounded-lg text-white transition-colors duration-300 cursor-pointer"
+            >
+              Purchase
+            </button>
+          </div>
+          <div class="bg-slate-800 p-8 border-t border-t-slate-700">
+            <ul class="flex flex-col space-y-2">
+              <li>
+                <span class="mr-1"><i class="fa-solid fa-check"></i></span>
+                <span>100 GB of storage </span>
+              </li>
+              <li>
+                <span class="mr-1"><i class="fa-solid fa-check"></i></span>
+                <span>Option to add members </span>
+              </li>
+              <li>
+                <span class="mr-1"><i class="fa-solid fa-check"></i></span>
+                <span>Extra member benefits </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End Card -->
+        <!-- Start Card -->
+        <div
+          data-special="true"
+          class="group bg-slate-700 data-[special=true]:bg-violet-600 p-3 rounded-xl text-white"
+        >
+          <div class="flex flex-col items-center bg-slate-800 p-8">
+            <h3 class="mb-10 uppercase">Standard</h3>
+            <div class="flex flex-col items-center space-y-2">
+              <span class="font-serif text-5xl">200GB</span>
+              <span>$3.99/Month</span>
+            </div>
+            <button
+              class="hover:bg-violet-800 group-data-[special=true]:bg-violet-600 my-6 px-10 py-3 border border-violet-600 hover:border-violet-800 rounded-lg text-white transition-colors duration-300 cursor-pointer"
+            >
+              Purchase
+            </button>
+          </div>
+          <div class="bg-slate-800 p-8 border-t border-t-slate-700">
+            <ul class="flex flex-col space-y-2">
+              <li>
+                <span class="mr-1"><i class="fa-solid fa-check"></i></span>
+                <span>200 GB of storage </span>
+              </li>
+              <li>
+                <span class="mr-1"><i class="fa-solid fa-check"></i></span>
+                <span>Option to add members </span>
+              </li>
+              <li>
+                <span class="mr-1"><i class="fa-solid fa-check"></i></span>
+                <span>Extra member benefits </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End Card -->
+        <!-- Start Card -->
+        <div class="bg-slate-700 p-3 rounded-xl text-white">
+          <div class="flex flex-col items-center bg-slate-800 p-8">
+            <h3 class="mb-10 uppercase">Premium</h3>
+            <div class="flex flex-col items-center space-y-2">
+              <span class="font-serif text-5xl">2 TB</span>
+              <span>$8.99/Month</span>
+            </div>
+            <button
+              class="hover:bg-violet-800 my-6 px-10 py-3 border border-violet-600 hover:border-violet-800 rounded-lg text-white transition-colors duration-300 cursor-pointer"
+            >
+              Purchase
+            </button>
+          </div>
+          <div class="bg-slate-800 p-8 border-t border-t-slate-700">
+            <ul class="flex flex-col space-y-2">
+              <li>
+                <span class="mr-1"><i class="fa-solid fa-check"></i></span>
+                <span>2 TB of storage</span>
+              </li>
+              <li>
+                <span class="mr-1"><i class="fa-solid fa-check"></i></span>
+                <span>Option to add members </span>
+              </li>
+              <li>
+                <span class="mr-1"><i class="fa-solid fa-check"></i></span>
+                <span>Extra member benefits </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End Card -->
+      </section>
+    </main>
+  </body>
+</html>
