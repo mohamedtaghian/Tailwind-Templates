@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <!-- CSS File -->
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="flex justify-center items-center bg-cyan-50 p-3 min-h-screen">
+      <!-- Start Gallery Section -->
+      <section class="space-y-10 bg-white shadow-2xl p-6 md:p-35 rounded-3xl">
+        <!-- Start Header -->
+        <header>
+          <ul
+            class="flex md:flex-row flex-col justify-end items-center md:space-x-8 space-y-3 md:space-y-0"
+          >
+            <li class="group">
+              <a href="#">Vector</a>
+              <div
+                class="opacity-0 group-hover:opacity-100 mx-2 mt-2 border border-black border-b-2 transition-all duration-500"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="#">Illustrations</a>
+              <div
+                class="opacity-0 group-hover:opacity-100 mx-2 mt-2 border border-black border-b-2 transition-all duration-500"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="#">Images</a>
+              <div
+                class="opacity-0 group-hover:opacity-100 mx-2 mt-2 border border-black border-b-2 transition-all duration-500"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="#">Icons </a>
+              <div
+                class="opacity-0 group-hover:opacity-100 mx-2 mt-2 border border-black border-b-2 transition-all duration-500"
+              ></div>
+            </li>
+          </ul>
+        </header>
+        <!-- End Header -->
+        <!-- Start Search -->
+        <div
+          class="flex md:flex-row flex-col justify-between md:items-center space-y-5 md:space-y-0"
+        >
+          <div
+            class="flex justify-between items-center pb-2.5 border-gray-300 border-b"
+          >
+            <input
+              class="ml-6 focus:outline-0 placeholder:font-thin"
+              type="text"
+              placeholder="Search"
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-8 text-gray-300 hover:scale-110 duration-200"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="10" cy="10" r="7"></circle>
+              <line x1="21" y1="21" x2="15" y2="15"></line>
+            </svg>
+          </div>
+          <button
+            class="bg-black hover:bg-white shadow-2xl px-14 py-3 border border-black rounded-md font-normal text-white hover:text-black text-lg transition-all duration-200 cursor-pointer"
+          >
+            Upload
+          </button>
+        </div>
+        <!-- End Search -->
+        <!-- Start Images Container -->
+        <div class="gap-4 grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          <figure class="group relative">
+            <img src="./../images/image1.jpg" alt="image gallery" />
+            <figcaption
+              class="right-0 bottom-0 left-0 absolute flex justify-between items-center bg-black/50 opacity-0 group-hover:opacity-100 px-4 py-2 text-white transition-all duration-300"
+            >
+              <div>
+                <h4 class="text-sm">Abstract Painting</h4>
+                <p class="text-xs">245 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="./../images/bookmark.svg" alt="book mark" />
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="group relative">
+            <img src="./../images/image2.jpg" alt="image gallery" />
+            <figcaption
+              class="right-0 bottom-0 left-0 absolute flex justify-between items-center bg-black/50 opacity-0 group-hover:opacity-100 px-4 py-2 text-white transition-all duration-300"
+            >
+              <div>
+                <h4 class="text-sm">Abstract Painting</h4>
+                <p class="text-xs">245 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="./../images/bookmark.svg" alt="book mark" />
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="group relative">
+            <img src="./../images/image3.jpg" alt="image gallery" />
+            <figcaption
+              class="right-0 bottom-0 left-0 absolute flex justify-between items-center bg-black/50 opacity-0 group-hover:opacity-100 px-4 py-2 text-white transition-all duration-300"
+            >
+              <div>
+                <h4 class="text-sm">Abstract Painting</h4>
+                <p class="text-xs">245 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="./../images/bookmark.svg" alt="book mark" />
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="group relative">
+            <img src="./../images/image4.jpg" alt="image gallery" />
+            <figcaption
+              class="right-0 bottom-0 left-0 absolute flex justify-between items-center bg-black/50 opacity-0 group-hover:opacity-100 px-4 py-2 text-white transition-all duration-300"
+            >
+              <div>
+                <h4 class="text-sm">Abstract Painting</h4>
+                <p class="text-xs">245 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="./../images/bookmark.svg" alt="book mark" />
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="group relative">
+            <img src="./../images/image5.jpg" alt="image gallery" />
+            <figcaption
+              class="right-0 bottom-0 left-0 absolute flex justify-between items-center bg-black/50 opacity-0 group-hover:opacity-100 px-4 py-2 text-white transition-all duration-300"
+            >
+              <div>
+                <h4 class="text-sm">Abstract Painting</h4>
+                <p class="text-xs">245 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="./../images/bookmark.svg" alt="book mark" />
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="group relative">
+            <img src="./../images/image6.jpg" alt="image gallery" />
+            <figcaption
+              class="right-0 bottom-0 left-0 absolute flex justify-between items-center bg-black/50 opacity-0 group-hover:opacity-100 px-4 py-2 text-white transition-all duration-300"
+            >
+              <div>
+                <h4 class="text-sm">Abstract Painting</h4>
+                <p class="text-xs">245 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="./../images/bookmark.svg" alt="book mark" />
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <!-- End Images Container -->
+      </section>
+      <!-- End Gallery Section -->
+    </main>
+  </body>
+</html>
